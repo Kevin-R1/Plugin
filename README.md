@@ -9,21 +9,18 @@
 
 ### 在源码根目录下载到package中
 
-        git clone https://github.com/Kevin-R1/Plugin.git package/Plugin
+        git clone https://github.com/Little-ku/Plugin.git package/Plugin
         
 ### 把它放到feeds.conf.default文件
 ### 记得删除这些
-         rm -rf feeds/packages/net/mosdns
-         rm -rf feeds/packages/net/msd_lite
-         rm -rf feeds/luci/themes/luci-theme-argon
+
          rm -rf feeds/luci/applications/luci-app-mosdns
          rm -rf feeds/luci/applications/luci-app-msd_lite
-         rm -rf feeds/luci/applications/luci-app-ttyd
          
 ### rm 是删除openwrt-23源码的18.06不用
 
-       src-git Plugin https://github.com/Kevin-R1/Plugin.git
-       #src-git Plugin https://github.com/Kevin-R1/Plugin.git;lede-18.06
+       src-git Plugin https://github.com/Little-ku/Plugin.git
+       #src-git Plugin https://github.com/Little-ku/Plugin.git;lede-18.06
        
        
        ./scripts/feeds update -a
