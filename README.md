@@ -13,12 +13,9 @@
         
 ### 把它放到feeds.conf.default文件
 ### 记得删除这些
-         rm -rf feeds/packages/net/mosdns
-         rm -rf feeds/packages/net/msd_lite
-         rm -rf feeds/luci/themes/luci-theme-argon
+
          rm -rf feeds/luci/applications/luci-app-mosdns
          rm -rf feeds/luci/applications/luci-app-msd_lite
-         rm -rf feeds/luci/applications/luci-app-ttyd
          
 ### rm 是删除openwrt-23源码的18.06不用
 
